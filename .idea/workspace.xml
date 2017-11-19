@@ -171,6 +171,7 @@
         <option value="$PROJECT_DIR$/Hello/src/top/winterfell/demo/Person.java" />
         <option value="$PROJECT_DIR$/Hello/src/top/winterfell/demo/Student.java" />
         <option value="$PROJECT_DIR$/Hello/src/top/winterfell/demo/Hello.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -208,17 +209,6 @@
             <path>
               <item name="ideaTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hello" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ideaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ideaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -382,12 +372,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511071744977</updated>
-      <workItem from="1511071746600" duration="5979000" />
+      <workItem from="1511071746600" duration="6478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5979000" />
+    <option name="totallyTimeSpent" value="6478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -467,6 +457,14 @@
             <element signature="e#284#285#0" expanded="true" />
             <element signature="e#316#317#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
