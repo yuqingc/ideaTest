@@ -1,5 +1,7 @@
 package top.winterfell.demo;
 
+import java.util.UUID;
+
 public class TestString {
     
     private static long testString (String s) {
@@ -34,9 +36,11 @@ public class TestString {
         StringBuilder sb = new StringBuilder();
         StringBuffer sf = new StringBuffer();
         //Which one is the fastest?
-//        System.out.println(testString(s));
+        System.out.println(testString(s));
         System.out.println(testStringBuilder(sb));
         System.out.println(testStringBuffer(sf));
+        UUID id = UUID.randomUUID();
+        System.out.println(id);
     }
 
 }
