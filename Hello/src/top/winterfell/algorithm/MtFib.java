@@ -1,7 +1,7 @@
-package top.winterfell.demo;
+package top.winterfell.algorithm;
 import java.math.BigInteger;
 
-public class FibDemo {
+public class MtFib {
 
     //该斐波那契数列的复杂度为指数复杂度
     private static long fib (int n) throws RuntimeException {
