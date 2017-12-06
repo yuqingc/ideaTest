@@ -2,7 +2,13 @@ package top.winterfell.algorithm;
 
 
 public class MatrixVal {
+    /**
+     * 计算复杂度
+     */
     private static int count;
+     /**
+      * 计算余子式
+      */
     private static int[][] subMatrix(int[][] originMatrix, int x, int y) {
         System.out.println("Calculating subMatrix...");
         count++;
@@ -29,7 +35,7 @@ public class MatrixVal {
         int sum = 0;
         for(int i = 0; i < matrix.length; i++) {
             int subM[][] = subMatrix(matrix, 0, i);
-            sum += Math.pow(-1, i) * matrix[0][i] *calcMatrix(subM);
+            sum += Math.pow(-1, i) * matrix[0][i] * calcMatrix(subM);
         }
         return sum;
     }
