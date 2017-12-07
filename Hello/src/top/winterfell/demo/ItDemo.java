@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public class ItDemo {
     public static void main(String[] args) {
-        ArrayList list = new ArrayList();
+        ArrayList<String> list = new ArrayList<>();
         list.add("a");
         list.add("b");
         list.add("c");
