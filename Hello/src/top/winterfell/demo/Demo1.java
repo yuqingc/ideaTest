@@ -1,6 +1,7 @@
 package top.winterfell.demo;
 
 import java.util.Arrays;
+import java.util.LinkedList;
 
 public class Demo1 {
     protected void finalize () throws Throwable {
@@ -21,6 +22,7 @@ public class Demo1 {
         //System.exit(0);
         new Demo1();
         new Demo1();
+        LinkedList list = new LinkedList();
         //强制垃圾回收 会调用 finalize 方法
         System.gc();
         System.exit(0);
